@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/1f7bdb2d7f.js" crossorigin="anonymous"></script>
+    <title>Sonu Sagar - Portfolio</title>
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="bx bx-chevrons-up"></i>
+    </button>
+
+    <!-- navbar part -->
+    <main id="home">
+      <header id="navbar">
+        <div class="left-part">
+          <h1>Sonu's Portfolio</h1>
+        </div>
+        <div class="right-part">
+          <i class="fa-solid fa-bars" id="side_menu" onclick="show()"></i>
+          <i class='bx bx-x' style="display:none;" id="hide" onclick="hide()"></i>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="side_menu" id="menu_div">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- main page home content -->
+      <section class="main">
+        
+          <div class="left-part">
+            <div class="left-content">
+              <h2>I'm Sonu Sagar and</h2>
+              <h2>I am a Professional</h2>
+              <span id="element"></span>
+            </div>
+          </div>
+  
+          <div class="right-part">
+            <div class="right-content">
+              <img src="images/mainpic.png" alt="sonu sagar pic" id="image"/>
+            </div>
+          </div>
+        
+      </section>
+    </main>
+
+    <!-- Resume secion part -->
+    <section class="third-sec" id="resume">
+      <h2>MY <span>RESUME</span></h2>
+
+      <div class="resume-con">
+        <div class="edu-con">
+          <div class="education">
+            <div class="time"><i class='bx bx-calendar'></i> 12th Feb 2020</div>
+            <div class="title">10<sup>th</sup> ( Matriculation )</div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              dolorem non fuga minus eaque dolores quis repellat consequatur,
+              beatae cupiditate?
+            </div>
+          </div>
+
+          <div class="icon">
+            <i class="bx bx-chevrons-right"></i>
+          </div>
+
+          <div class="education">
+            <div class="time"><i class='bx bx-calendar'></i> 10th Feb 2022</div>
+            <div class="title">12<sup>th</sup> ( Intermediate )</div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              dolorem non fuga minus eaque dolores quis repellat consequatur,
+              beatae cupiditate?
+            </div>
+          </div>
+        </div>
+        <div class="edu-con">
+          <div class="education">
+            <div class="time"><i class='bx bx-calendar'></i> 12th March 2025</div>
+            <div class="title">B-Tech ( CSE )</div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              dolorem non fuga minus eaque dolores quis repellat consequatur,
+              beatae cupiditate?
+            </div>
+          </div>
+
+          <div class="icon">
+            <i class="bx bx-chevrons-left"></i>
+          </div>
+          <div class="education">
+            <div class="time"><i class='bx bx-calendar'></i> 30th Dec 2022</div>
+            <div class="title">Polytechnic ( CSE )</div>
+            <div class="des">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+              dolorem non fuga minus eaque dolores quis repellat consequatur,
+              beatae cupiditate?
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- services part design -->
+
+    <section class="forth-sec" id="services">
+      <div class="service">
+        <div class="icon">
+          <i class="bx bx-code-alt"></i>
+        </div>
+        <h2>Web Design</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          voluptatum quae quas voluptatibus sed eum fuga voluptatum quae quas
+          voluptatibus sed eum
+        </p>
+        <div class="btn">
+          <button>More..</button>
+        </div>
+      </div>
+      <div class="service">
+        <div class="icon">
+          <i class="bx bx-code-alt"></i>
+        </div>
+        <h2>Web Design</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          voluptatum quae quas voluptatibus sed eum fuga voluptatum quae quas
+          voluptatibus sed eum
+        </p>
+        <div class="btn">
+          <button>More..</button>
+        </div>
+      </div>
+      <div class="service">
+        <div class="icon">
+          <i class="bx bx-code-alt"></i>
+        </div>
+        <h2>Web Design</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          voluptatum quae quas voluptatibus sed eum fuga voluptatum quae quas
+          voluptatibus sed eum
+        </p>
+        <div class="btn">
+          <button>More..</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section  -->
+
+    <section class="fifth-sec" id="about">
+      <div class="img">
+        <center><img src="images/standpic.png" alt=""></center>
+      </div>
+      <div class="content">
+        <h2>SONU SAGAR</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste pariatur, ullam ex placeat porro explicabo dolor Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, ipsa voluptate quam veniam ducimus distinctio excepturi quod rerum. Libero, exercitationem. dolores magnam minima error nemo veniam dolorem fugiat ut, sunt deserunt fuga eligendi qui corrupti ducimus culpa.</p>
+        <div class="btn">
+          <button>Hire Me</button>
+          <button>Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section Of Portfolio  -->
+
+    <section class="project" id="projects">
+      <h2>My <span>Projects</span></h2>
+      <div class="project-box">
+        <div class="img-container">
+          <div class="img1">
+            <div class="img">
+              <img src="https://codingartistweb.com/wp-content/uploads/2022/06/Quiz-App-01.png" alt="">
+            </div>
+            <div class="content">
+              <h2>Quiz App</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quod provident quos ab sed nihil, veniam voluptatibus aliquid ipsa nobis qui neque magni dignissimos sequi officiis blanditiis consequuntur impedit doloremque!</p>
+              <button>Visit</button>
+            </div>
+          </div>
+          <div class="img1">
+            <div class="img">
+              <img src="https://images.ctfassets.net/gg4ddi543f5b/3yyb7pOAbiZpfbn0WUBWWE/cb95b0eb9b1bd8092dafea6ad7b4a9c5/how_to_take_meeting_notes_blog_featured_image.png" alt="">
+            </div>
+            <div class="content">
+              <h2>Blogging</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quod provident quos ab sed nihil, veniam voluptatibus aliquid ipsa nobis qui neque magni dignissimos sequi officiis blanditiis consequuntur impedit doloremque!</p>
+              <button>Visit</button>
+            </div>
+          </div>
+          <div class="img1">
+            <div class="img">
+              <img src="https://contentstatic.techgig.com/photo/82179859/5-best-youtube-channels-to-learn-programming-and-coding.jpg?36694" alt="">
+            </div>
+            <div class="content">
+              <h2>59code YT</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quod provident quos ab sed nihil, veniam voluptatibus aliquid ipsa nobis qui neque magni dignissimos sequi officiis blanditiis consequuntur impedit doloremque!</p>
+              <button>Visit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contect us section  -->
+
+    <section class="contact-us" id="contact">
+      <div class="con">
+        <div class="message">
+          <textarea name="query" id="message" cols="30" rows="10" placeholder="Write Your Message"></textarea>
+        </div>
+        <div class="detail">
+          <div class="row1">
+            <input type="text" name="name" id="name" placeholder="Your name">
+          <input type="number" name="phone" id="phone" placeholder="Your phone">
+          </div>
+          <input type="text" name="email" id="email" placeholder="Your email">
+          <input type="submit" value="SEND" class="btn">
+        </div>
+      </div>
+      <div class="my-detail">
+        <h2>Contact us</h2><hr>
+        <div class="content">
+        <fieldset>
+          <legend>Email</legend>
+          <h2>sonusagarpoly@gmail.com</h2>
+        </fieldset>
+        <fieldset>
+          <legend>Phone</legend>
+          <h2>+91 8581040110</h2>
+        </fieldset>
+        <fieldset>
+          <legend>Website</legend>
+          <h2>59notes.blogspot.com</h2>
+        </fieldset>
+        <fieldset>
+          <legend>Address</legend>
+          <h2>Imamganj,Gaya</h2>
+        </fieldset>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section  -->
+
+    <section class="team">
+      <h2>Our <span>Team</span></h2>
+
+      <div class="team-list">
+        <div class="box">
+          <div class="img">
+            <img src="images/sonu logo.png" alt="">
+          </div>
+          <div class="detail">
+            <h2>SONU SAGAR</h2>
+            <h4>Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur quidem ipsa vel magni repellendus nulla nemo aliquid suscipit distinctio.</p>
+            <ul>
+              <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+              <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+              <li><a href=""><i class='bx bxl-github' ></i></a></li>
+              <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+              <li><a href=""><i class='bx bxl-linkedin-square' ></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="images/sonu logo.png" alt="">
+          </div>
+          <div class="detail">
+            <h2>SONU SAGAR</h2>
+            <h4>Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur quidem ipsa vel magni repellendus nulla nemo aliquid suscipit distinctio.</p>
+            <ul>
+              <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+              <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+              <li><a href=""><i class='bx bxl-github' ></i></a></li>
+              <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+              <li><a href=""><i class='bx bxl-linkedin-square' ></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="images/sonu logo.png" alt="">
+          </div>
+          <div class="detail">
+            <h2>SONU SAGAR</h2>
+            <h4>Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur quidem ipsa vel magni repellendus nulla nemo aliquid suscipit distinctio.</p>
+            <ul>
+              <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+              <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+              <li><a href=""><i class='bx bxl-github' ></i></a></li>
+              <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+              <li><a href=""><i class='bx bxl-linkedin-square' ></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="box">
+          <div class="img">
+            <img src="images/sonu logo.png" alt="">
+          </div>
+          <div class="detail">
+            <h2>SONU SAGAR</h2>
+            <h4>Web Developer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem consectetur quidem ipsa vel magni repellendus nulla nemo aliquid suscipit distinctio.</p>
+            <ul>
+              <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+              <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+              <li><a href=""><i class='bx bxl-github' ></i></a></li>
+              <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+              <li><a href=""><i class='bx bxl-linkedin-square' ></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Credit section  -->
+
+    <section class="credit">
+      <div class="container">
+        <p>@COPYRIGHT || <a href="#home">59Team</a></p><hr>
+        <ul>
+          <li><a href=""><i class='bx bxl-youtube'></i></a></li>
+          <li><a href=""><i class='bx bxl-facebook-circle'></i></a></li>
+          <li><a href=""><i class='bx bxl-github' ></i></a></li>
+          <li><a href=""><i class='bx bxl-instagram' ></i></a></li>
+          <li><a href=""><i class='bx bxl-linkedin-square' ></i></a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- typing libaray file -->
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Video Editor",
+          "Ethical Hacker",
+          "Web Designer",
+          "Cartoon Creator",
+          "YouTuber",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
